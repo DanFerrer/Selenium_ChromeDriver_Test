@@ -11,7 +11,7 @@ Using Intellij 13
 - Download latest version chromedriver.exe for respective OS: http://chromedriver.storage.googleapis.com/index.html
 - Fork project and make sure maven depencies are working. If not create new empty maven project and inport the libraries into the pom.xml:
 
-' <dependencies>
+`<dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -23,12 +23,12 @@ Using Intellij 13
             <artifactId>selenium-java</artifactId>
             <version>2.42.2</version>
         </dependency>
-    </dependencies> '
+    </dependencies> `
     
     
--In navigationTest.java, replace path to chromedriver.exe to whereever downloaded:
+- In navigationTest.java, replace path to chromedriver.exe to whereever downloaded:
 
-'System.setProperty("webdriver.chrome.driver", "PATH GOES HERE");' 
+`System.setProperty("webdriver.chrome.driver", "PATH GOES HERE");`
 
--Make and run navigationTest.java
+- Make and run navigationTest.java
 
