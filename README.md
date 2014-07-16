@@ -11,7 +11,8 @@ Using Intellij 13
 - Download latest version chromedriver.exe for respective OS: http://chromedriver.storage.googleapis.com/index.html
 - Fork project and make sure maven depencies are working. If not create new empty maven project and inport the libraries into the pom.xml:
 
-```<dependencies>
+```
+<dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
