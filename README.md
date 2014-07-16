@@ -23,7 +23,8 @@ Using Intellij 13
             <artifactId>selenium-java</artifactId>
             <version>2.42.2</version>
         </dependency>
-    </dependencies> ```
+    </dependencies> 
+```
     
     
 - In navigationTest.java, replace path to chromedriver.exe to whereever downloaded:
